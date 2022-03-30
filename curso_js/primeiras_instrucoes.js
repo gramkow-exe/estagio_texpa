@@ -111,3 +111,20 @@ const c = a + b //não muda
 
 
 // objetos
+    class Pessoa { // POO com classe
+        constructor(nome, idade) { //função para construir, igual ao __init__ do python
+            this.nome = nome
+            this.idade = idade
+                
+        }
+    }
+    igor = new Pessoa("Igor", 16); 
+    console.log(igor.nome)
+
+
+    function Amigo(nome){ // POO com function
+        this.nome = nome
+    }
+
+    igao = new Amigo("igao") 
+    console.log(igao.nome)
