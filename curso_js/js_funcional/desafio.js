@@ -28,7 +28,7 @@ function range(...nums){
         }
         
         }else{
-        result = "Muitos números ou números incorretos!"
+        result = "Muitos moles ou números incorretos!"
     }
     return result
 }
