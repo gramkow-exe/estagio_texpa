@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./App.css"
 import AddTask from './components/addTask'
 import Tasks from "./components/tasks"
@@ -21,6 +21,9 @@ const App = () => {
       completed: true,
     },
   ])
+  useEffect(() => {
+    
+  })
 
   const handleTaskClick = (taskId) => {
     const newTasks = tasks.map(task => {

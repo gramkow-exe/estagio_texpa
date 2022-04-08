@@ -17,3 +17,7 @@ const prod2 = {
         blabla: 1
     }
 }
+
+//json nao é a mesma coisa que objeto
+//json é a forma textual
+//utiliza aspas duplas para atributos

@@ -13,3 +13,4 @@ const notas = [6.7,9.6,8.4]
 for(i = 0; i < notas.length; i++){
     console.log(`nota = ${notas[i]}`)
 }
+
