@@ -7,4 +7,4 @@ const carrinho = [
 
 //Retornar um array apenas com os precos
 
-console.log(carrinho.map(function(e){return JSON.parse(e)}).map(function(e){return e.preco}))
+console.log(carrinho.map(function(e){return JSON.parse(e)}).map(e => e.preco))

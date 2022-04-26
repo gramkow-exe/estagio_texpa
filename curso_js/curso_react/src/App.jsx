@@ -5,7 +5,7 @@ import Tasks from "./components/tasks"
 import {v4 as uuidv4} from "uuid"
 import Header from "./components/header"
 import {BrowserRouter as Router, Route} from "react-router-dom"
-import TaskDetails from './components/taskDetails'
+import TaskDetails from './components/TaskDetails'
 
 
 const App = () => {

@@ -11,7 +11,7 @@ import {useHistory} from "react-router-dom"
 
 const TaskDetails = () => {
     // debugger
-    // const { params } = useParams();
+    const { params } = useParams();
     // const history = useHistory();
     // console.log(params);
 
@@ -22,7 +22,7 @@ const TaskDetails = () => {
     return ( 
         <>
             <div className='back-button-container'>
-                <button onClick={handleBackButtonClick}>Voltar</button>
+                <button>Voltar</button>
             </div>
             <div className="task-details-container">
                 {<h2>{params.taskTitle}</h2>}
